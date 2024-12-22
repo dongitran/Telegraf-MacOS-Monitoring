@@ -1,4 +1,4 @@
-# Telegraf Mac Mini Monitoring
+# Telegraf MacOS Monitoring
 
 ![](./image.jpg)
 
@@ -16,7 +16,7 @@ A comprehensive guide for setting up Telegraf on Mac Mini to collect system metr
 
 ## Prerequisites
 
-- Mac Mini running macOS
+- Mac Mini/Macbook running macOS
 - Administrative access
 - [Homebrew](https://brew.sh/) package manager
 - Prometheus server (optional, for metrics collection)
@@ -242,16 +242,6 @@ id telegraf
 sudo -u telegraf sudo powermetrics -s thermal,cpu_power -i1 -n1
 ```
 
-## Contributing
+## 👨‍💻 Author
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [Telegraf Documentation](https://docs.influxdata.com/telegraf/)
-- [Prometheus Documentation](https://prometheus.io/docs/)
-- [Homebrew](https://brew.sh/)
+dongtran ✨
